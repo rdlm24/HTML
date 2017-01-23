@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+
+    <header>
+      <img src="img/logo.svg" alt="Logo" title="Logo empresa" width="100" height="100">
+      <h1>Curriculum Vitae</h1>
+      <h2>Datos Personales</h2>
+      <h3>Nombre:</h3> <p> Roberto De León Martínez</p>
+      <h3>Fecha Nacimiento:</h3> <p>24/11/1981</p>
+      <h3>Lugar de nacimiento:</h3> <p>Barahona R.D.</p>
+    </header>
+
+    <br/>
+    <nav>
+    <a href="index.html">Inicio</a>
+    |
+    <a href="educacion.html">Educación</a>
+    |
+    <a href="experiencia.html">Experiencia</a>
+    </nav>
+
+<br/>
+<h2>Educación</h2>
+<table border="1">
+  <thead>
+    <tr>
+      <td><strong>Año</strong></td>
+      <td><strong>Institución</strong></td>
+      <td><strong>Estudios</strong></td>
+      <td><strong>Lugar</strong></td>
+      <td><strong>¿Culminó?</strong></td>
+    </tr>
+  </thead>
+  <tbody>
+<tr>
+  <td>2000</td>
+  <td>Liceo Secundario D.F.H.C</td>
+  <td>Secundarios</td>
+  <td>Barahona</td>
+  <td>Si</td>
+</tr>
+<tr>
+  <td>2007</td>
+  <td>UAPA</td>
+  <td>Lic. en Informática</td>
+  <td>Santo Domingo</td>
+  <td>Si</td>
+</tr>
+<tr>
+  <td>2017</td>
+  <td>NEXTU</td>
+  <td>Programador Web</td>
+  <td>Internet</td>
+  <td>No</td>
+</tr>
+  </tbody>
+</table>
+
+<br/>
+<form class="" action="index.html" method="post">
+  <fieldset>
+    <legend>Agregar Estudios</legend>
+
+    <p>Año:
+    <select class="" name="anio" >
+      <option value="">2017</option>
+      <option value="">2016</option>
+      <option value="">2015</option>
+      <option value="">2014</option>
+      <option value="">2013</option>
+      <option value="">2012</option>
+      <option value="">2011</option>
+      <option value="">2010</option>
+    </select>
+   </p>
+
+    <p>Institución
+    <input type="text" name="institucion" value="" required="">
+    </p>
+
+    <p>Estudios
+    <input type="text" name="estudios" value="" required="">
+    </p>
+
+    <p>Lugar
+    <textarea name="lugar" rows="3" cols="21" required=""></textarea>
+    </p>
+
+    <p>
+    ¿Culminó?
+    <input type="radio" name="culmino" value="si" required=""> Si
+    <input type="radio" name="culmino" value="no" required=""> No
+    </p>
+
+    <p>
+    <input type="submit" name="" value="Enviar">
+    </p>
+
+  </fieldset>
+</form>
+
+<br/>
+    <footer>
+      <p><strong>Email:</strong> roberto.deleonmartinez@gmail.com</p>
+      <p><strong>Teléfono:</strong>829-773-8324</p>
+      <p><strong>Facebook:</strong>https://www.facebook.com/robert.deleonmartinez</p>
+    </footer>
+
+  </body>
+</html>
